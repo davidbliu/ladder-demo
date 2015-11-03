@@ -1,0 +1,10 @@
+<style type = 'text/css'>
+img{
+  height:100px;
+}
+</style>
+<h1>posts</h1>
+<% @image_urls.each do |image_url| %>
+<img src = '<%= image_url %>'>
+<% end %>
+
